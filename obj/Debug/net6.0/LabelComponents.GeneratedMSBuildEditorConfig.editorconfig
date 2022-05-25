@@ -1,0 +1,41 @@
+is_global = true
+build_property.RootNamespace = LabelComponents
+build_property.RootNamespace = LabelComponents
+build_property.ProjectDir = E:\Projects\LabelComponents\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Projects\LabelComponents
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Projects/LabelComponents/Areas/MyFeature/Pages/DateTimeControl.razor]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXERhdGVUaW1lQ29udHJvbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projects/LabelComponents/Areas/MyFeature/Pages/DropDownControl.razor]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXERyb3BEb3duQ29udHJvbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projects/LabelComponents/Areas/MyFeature/Pages/MaskedTextBoxControl.razor]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXE1hc2tlZFRleHRCb3hDb250cm9sLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projects/LabelComponents/Areas/MyFeature/Pages/MultiSelectControl.razor]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXE11bHRpU2VsZWN0Q29udHJvbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projects/LabelComponents/Areas/MyFeature/Pages/NumericControl.razor]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXE51bWVyaWNDb250cm9sLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projects/LabelComponents/Areas/MyFeature/Pages/SwitchControl.razor]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXFN3aXRjaENvbnRyb2wucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projects/LabelComponents/Areas/MyFeature/Pages/TextBoxControl.razor]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXFRleHRCb3hDb250cm9sLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projects/LabelComponents/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
