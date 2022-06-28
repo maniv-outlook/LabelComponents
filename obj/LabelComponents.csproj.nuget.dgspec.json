@@ -42,7 +42,7 @@
           "dependencies": {
             "Syncfusion.Blazor": {
               "target": "Package",
-              "version": "[19.4.0.56, )"
+              "version": "[20.1.0.59, )"
             }
           },
           "imports": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
