@@ -191,15 +191,15 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Syncfusion.Blazor/20.1.0.59": {
+      "Syncfusion.Blazor/20.1.0.61": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "6.0.0",
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.ExcelExport.Net.Core": "20.1.0.59",
-          "Syncfusion.Licensing": "20.1.0.59",
-          "Syncfusion.PdfExport.Net.Core": "20.1.0.59",
+          "Syncfusion.ExcelExport.Net.Core": "20.1.0.61",
+          "Syncfusion.Licensing": "20.1.0.61",
+          "Syncfusion.PdfExport.Net.Core": "20.1.0.61",
           "System.Text.Json": "6.0.0"
         },
         "compile": {
@@ -215,7 +215,7 @@
           "buildMultiTargeting/Syncfusion.Blazor.props": {}
         }
       },
-      "Syncfusion.ExcelExport.Net.Core/20.1.0.59": {
+      "Syncfusion.ExcelExport.Net.Core/20.1.0.61": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -227,7 +227,7 @@
           "lib/net5.0/Syncfusion.ExcelExport.Net.dll": {}
         }
       },
-      "Syncfusion.Licensing/20.1.0.59": {
+      "Syncfusion.Licensing/20.1.0.61": {
         "type": "package",
         "compile": {
           "lib/net6.0/Syncfusion.Licensing.dll": {}
@@ -236,7 +236,7 @@
           "lib/net6.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.PdfExport.Net.Core/20.1.0.59": {
+      "Syncfusion.PdfExport.Net.Core/20.1.0.61": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -819,10 +819,10 @@
         "packageIcon.png"
       ]
     },
-    "Syncfusion.Blazor/20.1.0.59": {
-      "sha512": "pkUvRgpWXJD0mUlze4wYIUSow7ZUY0mQpqN/jUUC8/Jzsn9mXxE+EtEmRLQpMbWxDE2dh/kjE1bT2nh3vdTrzw==",
+    "Syncfusion.Blazor/20.1.0.61": {
+      "sha512": "5cDLSlnvaEzb+oUehsgTKNLQ4BFwkvQiiYp7tXRjNagJ3hFqy7NATRgJOvKUW20ND9GnOsdRJbGTVD0VfWfpLg==",
       "type": "package",
-      "path": "syncfusion.blazor/20.1.0.59",
+      "path": "syncfusion.blazor/20.1.0.61",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -838,100 +838,100 @@
         "lib/net6.0/Syncfusion.Blazor.xml",
         "lib/netstandard2.1/Syncfusion.Blazor.dll",
         "lib/netstandard2.1/Syncfusion.Blazor.xml",
-        "staticwebassets/scripts/accordion-c2b4b6.min.js",
-        "staticwebassets/scripts/accumulationchart-c2b4b6.min.js",
-        "staticwebassets/scripts/button-c2b4b6.min.js",
-        "staticwebassets/scripts/buttonsbase-c2b4b6.min.js",
-        "staticwebassets/scripts/chart-c2b4b6.min.js",
-        "staticwebassets/scripts/compression-c2b4b6.min.js",
-        "staticwebassets/scripts/contextmenu-c2b4b6.min.js",
-        "staticwebassets/scripts/data-c2b4b6.min.js",
-        "staticwebassets/scripts/diagrams-c2b4b6.min.js",
-        "staticwebassets/scripts/dialog-c2b4b6.min.js",
-        "staticwebassets/scripts/drawings-c2b4b6.min.js",
-        "staticwebassets/scripts/excelexport-c2b4b6.min.js",
-        "staticwebassets/scripts/fileutils-c2b4b6.min.js",
-        "staticwebassets/scripts/inplaceeditor-c2b4b6.min.js",
-        "staticwebassets/scripts/inputsbase-c2b4b6.min.js",
-        "staticwebassets/scripts/listsbase-c2b4b6.min.js",
-        "staticwebassets/scripts/listview-c2b4b6.min.js",
-        "staticwebassets/scripts/navigationsbase-c2b4b6.min.js",
-        "staticwebassets/scripts/officechart-c2b4b6.min.js",
-        "staticwebassets/scripts/pdfexport-c2b4b6.min.js",
-        "staticwebassets/scripts/pdfviewer-c2b4b6.min.js",
-        "staticwebassets/scripts/popup-c2b4b6.min.js",
-        "staticwebassets/scripts/popupsbase-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-accordion-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-accumulation-chart-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-barcode-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-breadcrumb-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-bullet-chart-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-calendarbase-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-chart-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-circulargauge-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-colorpicker-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-contextmenu-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-dashboard-layout-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-datepicker-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-daterangepicker-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-diagramcomponent-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-dialog-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-documenteditor-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-documenteditorcontainer-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-drop-down-button-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-dropdownlist-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-filemanager-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-gantt-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-grid-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-heatmap-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-import-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-import-ie-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-import-script-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-inplaceeditor-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-kanban-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-lineargauge-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-listbox-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-listview-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-maps-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-maskedtextbox-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-menu-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-multiselect-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-numerictextbox-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-pdfviewer-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-pivotview-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-progressbar-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-range-navigator-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-richtexteditor-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-schedule-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-sidebar-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-signature-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-slider-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-smith-chart-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-sparkline-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-spinner-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-splitter-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-stock-chart-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-svg-export-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-tab-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-textbox-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-timepicker-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-toast-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-toolbar-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-tooltip-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-treegrid-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-treemap-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-treeview-c2b4b6.min.js",
-        "staticwebassets/scripts/sf-uploader-c2b4b6.min.js",
-        "staticwebassets/scripts/sortable-c2b4b6.min.js",
-        "staticwebassets/scripts/spinner-c2b4b6.min.js",
-        "staticwebassets/scripts/splitbuttonsbase-c2b4b6.min.js",
-        "staticwebassets/scripts/svgbase-c2b4b6.min.js",
-        "staticwebassets/scripts/syncfusion-blazor-c2b4b6.min.js",
-        "staticwebassets/scripts/syncfusion-blazor-extended-c2b4b6.min.js",
+        "staticwebassets/scripts/accordion-565151.min.js",
+        "staticwebassets/scripts/accumulationchart-565151.min.js",
+        "staticwebassets/scripts/button-565151.min.js",
+        "staticwebassets/scripts/buttonsbase-565151.min.js",
+        "staticwebassets/scripts/chart-565151.min.js",
+        "staticwebassets/scripts/compression-565151.min.js",
+        "staticwebassets/scripts/contextmenu-565151.min.js",
+        "staticwebassets/scripts/data-565151.min.js",
+        "staticwebassets/scripts/diagrams-565151.min.js",
+        "staticwebassets/scripts/dialog-565151.min.js",
+        "staticwebassets/scripts/drawings-565151.min.js",
+        "staticwebassets/scripts/excelexport-565151.min.js",
+        "staticwebassets/scripts/fileutils-565151.min.js",
+        "staticwebassets/scripts/inplaceeditor-565151.min.js",
+        "staticwebassets/scripts/inputsbase-565151.min.js",
+        "staticwebassets/scripts/listsbase-565151.min.js",
+        "staticwebassets/scripts/listview-565151.min.js",
+        "staticwebassets/scripts/navigationsbase-565151.min.js",
+        "staticwebassets/scripts/officechart-565151.min.js",
+        "staticwebassets/scripts/pdfexport-565151.min.js",
+        "staticwebassets/scripts/pdfviewer-565151.min.js",
+        "staticwebassets/scripts/popup-565151.min.js",
+        "staticwebassets/scripts/popupsbase-565151.min.js",
+        "staticwebassets/scripts/sf-accordion-565151.min.js",
+        "staticwebassets/scripts/sf-accumulation-chart-565151.min.js",
+        "staticwebassets/scripts/sf-barcode-565151.min.js",
+        "staticwebassets/scripts/sf-breadcrumb-565151.min.js",
+        "staticwebassets/scripts/sf-bullet-chart-565151.min.js",
+        "staticwebassets/scripts/sf-calendarbase-565151.min.js",
+        "staticwebassets/scripts/sf-chart-565151.min.js",
+        "staticwebassets/scripts/sf-circulargauge-565151.min.js",
+        "staticwebassets/scripts/sf-colorpicker-565151.min.js",
+        "staticwebassets/scripts/sf-contextmenu-565151.min.js",
+        "staticwebassets/scripts/sf-dashboard-layout-565151.min.js",
+        "staticwebassets/scripts/sf-datepicker-565151.min.js",
+        "staticwebassets/scripts/sf-daterangepicker-565151.min.js",
+        "staticwebassets/scripts/sf-diagramcomponent-565151.min.js",
+        "staticwebassets/scripts/sf-dialog-565151.min.js",
+        "staticwebassets/scripts/sf-documenteditor-565151.min.js",
+        "staticwebassets/scripts/sf-documenteditorcontainer-565151.min.js",
+        "staticwebassets/scripts/sf-drop-down-button-565151.min.js",
+        "staticwebassets/scripts/sf-dropdownlist-565151.min.js",
+        "staticwebassets/scripts/sf-filemanager-565151.min.js",
+        "staticwebassets/scripts/sf-gantt-565151.min.js",
+        "staticwebassets/scripts/sf-grid-565151.min.js",
+        "staticwebassets/scripts/sf-heatmap-565151.min.js",
+        "staticwebassets/scripts/sf-import-565151.min.js",
+        "staticwebassets/scripts/sf-import-ie-565151.min.js",
+        "staticwebassets/scripts/sf-import-script-565151.min.js",
+        "staticwebassets/scripts/sf-inplaceeditor-565151.min.js",
+        "staticwebassets/scripts/sf-kanban-565151.min.js",
+        "staticwebassets/scripts/sf-lineargauge-565151.min.js",
+        "staticwebassets/scripts/sf-listbox-565151.min.js",
+        "staticwebassets/scripts/sf-listview-565151.min.js",
+        "staticwebassets/scripts/sf-maps-565151.min.js",
+        "staticwebassets/scripts/sf-maskedtextbox-565151.min.js",
+        "staticwebassets/scripts/sf-menu-565151.min.js",
+        "staticwebassets/scripts/sf-multiselect-565151.min.js",
+        "staticwebassets/scripts/sf-numerictextbox-565151.min.js",
+        "staticwebassets/scripts/sf-pdfviewer-565151.min.js",
+        "staticwebassets/scripts/sf-pivotview-565151.min.js",
+        "staticwebassets/scripts/sf-progressbar-565151.min.js",
+        "staticwebassets/scripts/sf-range-navigator-565151.min.js",
+        "staticwebassets/scripts/sf-richtexteditor-565151.min.js",
+        "staticwebassets/scripts/sf-schedule-565151.min.js",
+        "staticwebassets/scripts/sf-sidebar-565151.min.js",
+        "staticwebassets/scripts/sf-signature-565151.min.js",
+        "staticwebassets/scripts/sf-slider-565151.min.js",
+        "staticwebassets/scripts/sf-smith-chart-565151.min.js",
+        "staticwebassets/scripts/sf-sparkline-565151.min.js",
+        "staticwebassets/scripts/sf-spinner-565151.min.js",
+        "staticwebassets/scripts/sf-splitter-565151.min.js",
+        "staticwebassets/scripts/sf-stock-chart-565151.min.js",
+        "staticwebassets/scripts/sf-svg-export-565151.min.js",
+        "staticwebassets/scripts/sf-tab-565151.min.js",
+        "staticwebassets/scripts/sf-textbox-565151.min.js",
+        "staticwebassets/scripts/sf-timepicker-565151.min.js",
+        "staticwebassets/scripts/sf-toast-565151.min.js",
+        "staticwebassets/scripts/sf-toolbar-565151.min.js",
+        "staticwebassets/scripts/sf-tooltip-565151.min.js",
+        "staticwebassets/scripts/sf-treegrid-565151.min.js",
+        "staticwebassets/scripts/sf-treemap-565151.min.js",
+        "staticwebassets/scripts/sf-treeview-565151.min.js",
+        "staticwebassets/scripts/sf-uploader-565151.min.js",
+        "staticwebassets/scripts/sortable-565151.min.js",
+        "staticwebassets/scripts/spinner-565151.min.js",
+        "staticwebassets/scripts/splitbuttonsbase-565151.min.js",
+        "staticwebassets/scripts/svgbase-565151.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-565151.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-extended-565151.min.js",
         "staticwebassets/scripts/syncfusion-blazor.min.js",
-        "staticwebassets/scripts/textbox-c2b4b6.min.js",
-        "staticwebassets/scripts/toast-c2b4b6.min.js",
-        "staticwebassets/scripts/tooltip-c2b4b6.min.js",
+        "staticwebassets/scripts/textbox-565151.min.js",
+        "staticwebassets/scripts/toast-565151.min.js",
+        "staticwebassets/scripts/tooltip-565151.min.js",
         "staticwebassets/styles/bootstrap-dark.css",
         "staticwebassets/styles/bootstrap.css",
         "staticwebassets/styles/bootstrap4.css",
@@ -946,15 +946,15 @@
         "staticwebassets/styles/material.css",
         "staticwebassets/styles/tailwind-dark.css",
         "staticwebassets/styles/tailwind.css",
-        "syncfusion.blazor.20.1.0.59.nupkg.sha512",
+        "syncfusion.blazor.20.1.0.61.nupkg.sha512",
         "syncfusion.blazor.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.ExcelExport.Net.Core/20.1.0.59": {
-      "sha512": "OkQA3s9JZEzsdlOM4P3BCPN8H5RSFu85R4uU/eFyOaSmb1/qLUMKSACKz3g4Jq7Zd0Ia33QX5Y/4vga2TjlUKA==",
+    "Syncfusion.ExcelExport.Net.Core/20.1.0.61": {
+      "sha512": "BL02q7ny8ZPINvPaypGZxp68v1bHyvjsOqIJZvtjNKvPYs8gQI+b+OfvB7qFYZ8v/ZxRFfSY8Xp6S5ZIJT727Q==",
       "type": "package",
-      "path": "syncfusion.excelexport.net.core/20.1.0.59",
+      "path": "syncfusion.excelexport.net.core/20.1.0.61",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -963,15 +963,15 @@
         "lib/net5.0/Syncfusion.ExcelExport.Net.xml",
         "lib/netstandard2.0/Syncfusion.ExcelExport.Net.dll",
         "lib/netstandard2.0/Syncfusion.ExcelExport.Net.xml",
-        "syncfusion.excelexport.net.core.20.1.0.59.nupkg.sha512",
+        "syncfusion.excelexport.net.core.20.1.0.61.nupkg.sha512",
         "syncfusion.excelexport.net.core.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.Licensing/20.1.0.59": {
-      "sha512": "W8SzUDmLaX8Ivs9f7FYbxJGNkbjrYxjVOB3+dzQtk8UfhPwH3K8zD2WhNE61WRpB9ecTfe9YAmk2KnfapbOdEw==",
+    "Syncfusion.Licensing/20.1.0.61": {
+      "sha512": "zKaxU7BLBwetkXI5auOs9t1ANjM8x+QGssaw/mopmefSBL63Vk5KklQ0ZsD8MzSRBv4vc+o1DxSbKsR/Vb5d4Q==",
       "type": "package",
-      "path": "syncfusion.licensing/20.1.0.59",
+      "path": "syncfusion.licensing/20.1.0.61",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -995,15 +995,15 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.20.1.0.59.nupkg.sha512",
+        "syncfusion.licensing.20.1.0.61.nupkg.sha512",
         "syncfusion.licensing.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.PdfExport.Net.Core/20.1.0.59": {
-      "sha512": "NVnoDNoScJsvYqnP3z1pzntsIhjBYX/2sYsF1SOIYY8qT+zZ6A7vwagcDYpd2plhzYVouDvNQNTlZoPcF34lLA==",
+    "Syncfusion.PdfExport.Net.Core/20.1.0.61": {
+      "sha512": "N4LZYoi8viXHq0YzP4xe/672uFpOvu4XQ5N1orf2UEGLe7Kv3u4RCWdh1oXrZIkgOxJRHJru2e+KXNVqz1oXQQ==",
       "type": "package",
-      "path": "syncfusion.pdfexport.net.core/20.1.0.59",
+      "path": "syncfusion.pdfexport.net.core/20.1.0.61",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1012,7 +1012,7 @@
         "lib/net5.0/Syncfusion.PdfExport.Net.xml",
         "lib/netstandard2.0/Syncfusion.PdfExport.Net.dll",
         "lib/netstandard2.0/Syncfusion.PdfExport.Net.xml",
-        "syncfusion.pdfexport.net.core.20.1.0.59.nupkg.sha512",
+        "syncfusion.pdfexport.net.core.20.1.0.61.nupkg.sha512",
         "syncfusion.pdfexport.net.core.nuspec",
         "syncfusion_logo.png"
       ]
@@ -1151,7 +1151,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Syncfusion.Blazor >= 20.1.0.59"
+      "Syncfusion.Blazor >= 20.1.0.61"
     ]
   },
   "packageFolders": {
@@ -1195,7 +1195,7 @@
         "dependencies": {
           "Syncfusion.Blazor": {
             "target": "Package",
-            "version": "[20.1.0.59, )"
+            "version": "[20.1.0.61, )"
           }
         },
         "imports": [

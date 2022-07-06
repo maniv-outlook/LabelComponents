@@ -42,7 +42,7 @@
           "dependencies": {
             "Syncfusion.Blazor": {
               "target": "Package",
-              "version": "[20.1.0.59, )"
+              "version": "[20.1.0.61, )"
             }
           },
           "imports": [
