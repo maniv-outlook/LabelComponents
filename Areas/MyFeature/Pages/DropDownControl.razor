@@ -7,7 +7,7 @@
 			<label class="labelStatus" for="@ID">@(Placeholder.NullOrWhiteSpace() ? " " : Placeholder + ":")</label>
 		</div>
 		<div class="divFlexSmall">
-			<SfDropDownList DataSource="@DataSource" ID="@ID" TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="@ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
+			<SfDropDownList DataSource="@DataSource" ID="@ID" Query="@Query" TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="@ValueChanged" ValueExpression="@ValueExpression" Width="@Width" @ref="Drop">
 				<DropDownListEvents TItem="TItem" TValue="TValue" ValueChange="@DropDownValueChange" />
 				<DropDownListFieldSettings Text="@TextField" Value="@ValueField" />
 			</SfDropDownList>
@@ -16,7 +16,7 @@
 }
 else
 {
-	<SfDropDownList DataSource="@DataSource" ID="@ID" TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="@ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
+	<SfDropDownList DataSource="@DataSource" ID="@ID" Query="@Query" TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="@ValueChanged" ValueExpression="@ValueExpression" Width="@Width" @ref="Drop">
 		<DropDownListEvents TItem="TItem" TValue="TValue" ValueChange="@DropDownValueChange" />
 		<DropDownListFieldSettings Text="@TextField" Value="@ValueField" />
 	</SfDropDownList>

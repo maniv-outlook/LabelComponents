@@ -8,8 +8,14 @@
 // File Name:           DropDownControl.razor.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          05-23-2022 20:15
-// Last Updated On:     05-23-2022 20:24
+// Last Updated On:     07-08-2022 20:22
 // *****************************************/
+
+#endregion
+
+#region Using
+
+using Syncfusion.Blazor.Data;
 
 #endregion
 
@@ -59,10 +65,24 @@ public partial class DropDownControl<TValue, TItem>
         set;
     }
 
+    private SfDropDownList<TValue, TItem> Drop;
+
+    public void Refresh()
+    {
+        Drop.RefreshDataAsync();
+    }
+
     /// <summary>
     /// </summary>
     [Parameter]
     public string Placeholder
+    {
+        get;
+        set;
+    }
+
+    [Parameter]
+    public Query Query
     {
         get;
         set;
