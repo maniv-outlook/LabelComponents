@@ -147,7 +147,7 @@ public partial class DateControl
 
     /// <summary>
     /// </summary>
-    private SfDatePicker<DateTime> DateTimeBox
+    private SfDatePicker<DateTime> DateBox
     {
         get;
         set;
@@ -159,7 +159,7 @@ public partial class DateControl
     /// <returns></returns>
     private void DTFocus(FocusEventArgs args)
     {
-        DateTimeBox.ShowPopupAsync();
+        DateBox.ShowPopupAsync();
     }
 
     /// <summary>

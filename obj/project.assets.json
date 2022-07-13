@@ -2,11 +2,11 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Microsoft.AspNetCore.Authorization/6.0.0": {
+      "Microsoft.AspNetCore.Authorization/6.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.AspNetCore.Metadata": "6.0.5",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
           "Microsoft.Extensions.Options": "6.0.0"
         },
         "compile": {
@@ -16,11 +16,11 @@
           "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components/6.0.0": {
+      "Microsoft.AspNetCore.Components/6.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "6.0.0",
-          "Microsoft.AspNetCore.Components.Analyzers": "6.0.0"
+          "Microsoft.AspNetCore.Authorization": "6.0.5",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.5"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.dll": {}
@@ -29,16 +29,16 @@
           "lib/net6.0/Microsoft.AspNetCore.Components.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Analyzers/6.0.0": {
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.5": {
         "type": "package",
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Forms/6.0.0": {
+      "Microsoft.AspNetCore.Components.Forms/6.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.0"
+          "Microsoft.AspNetCore.Components": "6.0.5"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {}
@@ -47,14 +47,14 @@
           "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Components.Web/6.0.0": {
+      "Microsoft.AspNetCore.Components.Web/6.0.5": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components": "6.0.0",
-          "Microsoft.AspNetCore.Components.Forms": "6.0.0",
+          "Microsoft.AspNetCore.Components": "6.0.5",
+          "Microsoft.AspNetCore.Components.Forms": "6.0.5",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
-          "Microsoft.JSInterop": "6.0.0",
-          "System.IO.Pipelines": "6.0.0"
+          "Microsoft.JSInterop": "6.0.5",
+          "System.IO.Pipelines": "6.0.3"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {}
@@ -63,7 +63,7 @@
           "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Metadata/6.0.0": {
+      "Microsoft.AspNetCore.Metadata/6.0.5": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {}
@@ -109,7 +109,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -149,7 +149,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.JSInterop/6.0.0": {
+      "Microsoft.JSInterop/6.0.5": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.JSInterop.dll": {}
@@ -191,15 +191,15 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Syncfusion.Blazor/20.1.0.61": {
+      "Syncfusion.Blazor/20.2.0.38": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "6.0.0",
+          "Microsoft.AspNetCore.Components.Web": "6.0.5",
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "12.0.3",
-          "Syncfusion.ExcelExport.Net.Core": "20.1.0.61",
-          "Syncfusion.Licensing": "20.1.0.61",
-          "Syncfusion.PdfExport.Net.Core": "20.1.0.61",
+          "Syncfusion.ExcelExport.Net.Core": "20.2.0.38",
+          "Syncfusion.Licensing": "20.2.0.38",
+          "Syncfusion.PdfExport.Net.Core": "20.2.0.38",
           "System.Text.Json": "6.0.0"
         },
         "compile": {
@@ -215,7 +215,7 @@
           "buildMultiTargeting/Syncfusion.Blazor.props": {}
         }
       },
-      "Syncfusion.ExcelExport.Net.Core/20.1.0.61": {
+      "Syncfusion.ExcelExport.Net.Core/20.2.0.38": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -227,7 +227,7 @@
           "lib/net5.0/Syncfusion.ExcelExport.Net.dll": {}
         }
       },
-      "Syncfusion.Licensing/20.1.0.61": {
+      "Syncfusion.Licensing/20.2.0.38": {
         "type": "package",
         "compile": {
           "lib/net6.0/Syncfusion.Licensing.dll": {}
@@ -236,7 +236,7 @@
           "lib/net6.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.PdfExport.Net.Core/20.1.0.61": {
+      "Syncfusion.PdfExport.Net.Core/20.2.0.38": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -248,7 +248,7 @@
           "lib/net5.0/Syncfusion.PdfExport.Net.dll": {}
         }
       },
-      "System.IO.Pipelines/6.0.0": {
+      "System.IO.Pipelines/6.0.3": {
         "type": "package",
         "compile": {
           "lib/net6.0/System.IO.Pipelines.dll": {}
@@ -312,10 +312,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Authorization/6.0.0": {
-      "sha512": "HPEhmNwINXzGVWirzmvVxx5/GkoaQJC7vKNIbhOUTzgnRHEf2zO6S2s4lMw3TPFWBGcAlfn6Ta0cVB9f15QC8w==",
+    "Microsoft.AspNetCore.Authorization/6.0.5": {
+      "sha512": "T3J4Z4xK/mmJlMv/j7Cs1PZjRLh1fGsvHay3RNBNooP0qhHCk3UnU+WgBvcGApZFnEfeyOEGZBHZv5gb1RrDLA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authorization/6.0.0",
+      "path": "microsoft.aspnetcore.authorization/6.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -327,14 +327,14 @@
         "lib/net6.0/Microsoft.AspNetCore.Authorization.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.6.0.5.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components/6.0.0": {
-      "sha512": "ETks/RMYyiC91P89jL9XNEwTeYlpyzt2+Z584v70h+B9//BO0cc68gAlhz3E0v/9h4NqCSHbTlopvMvj0qxnEg==",
+    "Microsoft.AspNetCore.Components/6.0.5": {
+      "sha512": "pm7wo05ANEduCj/HCKVIvBLL8BzszHttgHtX/hbV5f6xb6/0oCsTuZexRmBfM30PrlbQDjzWuH1rpiPYP30l7g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components/6.0.0",
+      "path": "microsoft.aspnetcore.components/6.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -342,14 +342,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net6.0/Microsoft.AspNetCore.Components.dll",
         "lib/net6.0/Microsoft.AspNetCore.Components.xml",
-        "microsoft.aspnetcore.components.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.6.0.5.nupkg.sha512",
         "microsoft.aspnetcore.components.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Analyzers/6.0.0": {
-      "sha512": "2cpebhhUAJXYgvrePJNXzhJfM5u6MAIuu4Nho6LEjQliMtAQ6NcdtYxkezoFxqTrgT1fZR0CSYAxp7k41q6PVQ==",
+    "Microsoft.AspNetCore.Components.Analyzers/6.0.5": {
+      "sha512": "zxAXJIA/VL3BkqBPvgNiojppfmhmOIB8JtWi1Q85kcy1MGxwOi+UXAFXlvaMliocrycUazTguZBTXMhC2jFiow==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.analyzers/6.0.0",
+      "path": "microsoft.aspnetcore.components.analyzers/6.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -358,14 +358,14 @@
         "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
         "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
-        "microsoft.aspnetcore.components.analyzers.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.6.0.5.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Forms/6.0.0": {
-      "sha512": "POjep/9qy79PD/q/5Gai7Xsg6Oybmo10+bVsCkoTrfu1kAO8dWgbQgJWH8I/VMfOPZY/dPgfo+BitqEriWMuKQ==",
+    "Microsoft.AspNetCore.Components.Forms/6.0.5": {
+      "sha512": "yh8bWPxPkJ/60IHVA6Vv5dPuyG/i4LiG6Nwkq/8ejtHn/hyGuPBrcsymBjLGQEqSmhTPnqteIL9BOP7VBYV1NQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.forms/6.0.0",
+      "path": "microsoft.aspnetcore.components.forms/6.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -373,14 +373,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll",
         "lib/net6.0/Microsoft.AspNetCore.Components.Forms.xml",
-        "microsoft.aspnetcore.components.forms.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.6.0.5.nupkg.sha512",
         "microsoft.aspnetcore.components.forms.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Components.Web/6.0.0": {
-      "sha512": "EvTZEhXCqcIxEs01ScF0ts/CyMOzXQIFfcgwTeLae7dQV7WnPEFhqrlD+1l78lA/h+Uer1RvaRbkAScGE/0tyQ==",
+    "Microsoft.AspNetCore.Components.Web/6.0.5": {
+      "sha512": "QbPAY7trw1IpafCIbizib1IW/3Lqxf3AJ6tCO/FzbmvWeImD3rNLrgWb3gH7Mz+RtkmYmbrfdEk4eh9mW/2tGg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.components.web/6.0.0",
+      "path": "microsoft.aspnetcore.components.web/6.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -388,14 +388,14 @@
         "THIRD-PARTY-NOTICES.txt",
         "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll",
         "lib/net6.0/Microsoft.AspNetCore.Components.Web.xml",
-        "microsoft.aspnetcore.components.web.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.6.0.5.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Metadata/6.0.0": {
-      "sha512": "giBCvjANLIOqC+DJ84zCkCQnE4ebRTrgVyBe5e0gG3/F8GYzdqSSdtMSAvbOkBQsf0F8dySBPSM59vX6ksOeQg==",
+    "Microsoft.AspNetCore.Metadata/6.0.5": {
+      "sha512": "4VRJoJa/EbncxQTAzM6abqQUUbNrohg5MC1glZ1R1lzzXJM2CdXiRKvcpAfn3luAwPzkwJtHejuLgI6Osn0aDA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.metadata/6.0.0",
+      "path": "microsoft.aspnetcore.metadata/6.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -407,7 +407,7 @@
         "lib/net6.0/Microsoft.AspNetCore.Metadata.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.6.0.5.nupkg.sha512",
         "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
@@ -530,10 +530,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
-      "sha512": "/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+    "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
+      "sha512": "dzB2Cgg+JmrouhjkcQGzSFjjvpwlq353i8oBQO2GWNjCXSzhbtBRUf28HSauWe7eib3wYOdb3tItdjRwAdwCSg==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "path": "microsoft.extensions.logging.abstractions/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -577,7 +577,7 @@
         "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -628,10 +628,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.JSInterop/6.0.0": {
-      "sha512": "M7NyTgOY0vhozRtppvxUDJblgPWBUg6ioJ2vpaKpXVYILB0No8Vrv4HPis+ig5BzaOWd3PR9D3oTovYKGBt3mw==",
+    "Microsoft.JSInterop/6.0.5": {
+      "sha512": "ST48YNjqpW2WNbTFBN5V3fdpnV8Civ6VeewzGtKdtYtBtM0q5afQVnUOwx3w5oeBZNQjn2nk3OZM1tSe10x4lA==",
       "type": "package",
-      "path": "microsoft.jsinterop/6.0.0",
+      "path": "microsoft.jsinterop/6.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -639,7 +639,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.JSInterop.dll",
         "lib/net6.0/Microsoft.JSInterop.xml",
-        "microsoft.jsinterop.6.0.0.nupkg.sha512",
+        "microsoft.jsinterop.6.0.5.nupkg.sha512",
         "microsoft.jsinterop.nuspec"
       ]
     },
@@ -819,10 +819,10 @@
         "packageIcon.png"
       ]
     },
-    "Syncfusion.Blazor/20.1.0.61": {
-      "sha512": "5cDLSlnvaEzb+oUehsgTKNLQ4BFwkvQiiYp7tXRjNagJ3hFqy7NATRgJOvKUW20ND9GnOsdRJbGTVD0VfWfpLg==",
+    "Syncfusion.Blazor/20.2.0.38": {
+      "sha512": "NBd0ekoprIPocxqOY7fT6I30U7jf77EqqO4HveseKE1MUnAB8hWO2mWVSqtBAIKqKc523Y/0ehrzPFktxeNV9A==",
       "type": "package",
-      "path": "syncfusion.blazor/20.1.0.61",
+      "path": "syncfusion.blazor/20.2.0.38",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -832,106 +832,89 @@
         "build/Syncfusion.Blazor.props",
         "buildMultiTargeting/Syncfusion.Blazor.props",
         "buildTransitive/Syncfusion.Blazor.props",
-        "lib/net5.0/Syncfusion.Blazor.dll",
-        "lib/net5.0/Syncfusion.Blazor.xml",
         "lib/net6.0/Syncfusion.Blazor.dll",
         "lib/net6.0/Syncfusion.Blazor.xml",
         "lib/netstandard2.1/Syncfusion.Blazor.dll",
         "lib/netstandard2.1/Syncfusion.Blazor.xml",
-        "staticwebassets/scripts/accordion-565151.min.js",
-        "staticwebassets/scripts/accumulationchart-565151.min.js",
-        "staticwebassets/scripts/button-565151.min.js",
-        "staticwebassets/scripts/buttonsbase-565151.min.js",
-        "staticwebassets/scripts/chart-565151.min.js",
-        "staticwebassets/scripts/compression-565151.min.js",
-        "staticwebassets/scripts/contextmenu-565151.min.js",
-        "staticwebassets/scripts/data-565151.min.js",
-        "staticwebassets/scripts/diagrams-565151.min.js",
-        "staticwebassets/scripts/dialog-565151.min.js",
-        "staticwebassets/scripts/drawings-565151.min.js",
-        "staticwebassets/scripts/excelexport-565151.min.js",
-        "staticwebassets/scripts/fileutils-565151.min.js",
-        "staticwebassets/scripts/inplaceeditor-565151.min.js",
-        "staticwebassets/scripts/inputsbase-565151.min.js",
-        "staticwebassets/scripts/listsbase-565151.min.js",
-        "staticwebassets/scripts/listview-565151.min.js",
-        "staticwebassets/scripts/navigationsbase-565151.min.js",
-        "staticwebassets/scripts/officechart-565151.min.js",
-        "staticwebassets/scripts/pdfexport-565151.min.js",
-        "staticwebassets/scripts/pdfviewer-565151.min.js",
-        "staticwebassets/scripts/popup-565151.min.js",
-        "staticwebassets/scripts/popupsbase-565151.min.js",
-        "staticwebassets/scripts/sf-accordion-565151.min.js",
-        "staticwebassets/scripts/sf-accumulation-chart-565151.min.js",
-        "staticwebassets/scripts/sf-barcode-565151.min.js",
-        "staticwebassets/scripts/sf-breadcrumb-565151.min.js",
-        "staticwebassets/scripts/sf-bullet-chart-565151.min.js",
-        "staticwebassets/scripts/sf-calendarbase-565151.min.js",
-        "staticwebassets/scripts/sf-chart-565151.min.js",
-        "staticwebassets/scripts/sf-circulargauge-565151.min.js",
-        "staticwebassets/scripts/sf-colorpicker-565151.min.js",
-        "staticwebassets/scripts/sf-contextmenu-565151.min.js",
-        "staticwebassets/scripts/sf-dashboard-layout-565151.min.js",
-        "staticwebassets/scripts/sf-datepicker-565151.min.js",
-        "staticwebassets/scripts/sf-daterangepicker-565151.min.js",
-        "staticwebassets/scripts/sf-diagramcomponent-565151.min.js",
-        "staticwebassets/scripts/sf-dialog-565151.min.js",
-        "staticwebassets/scripts/sf-documenteditor-565151.min.js",
-        "staticwebassets/scripts/sf-documenteditorcontainer-565151.min.js",
-        "staticwebassets/scripts/sf-drop-down-button-565151.min.js",
-        "staticwebassets/scripts/sf-dropdownlist-565151.min.js",
-        "staticwebassets/scripts/sf-filemanager-565151.min.js",
-        "staticwebassets/scripts/sf-gantt-565151.min.js",
-        "staticwebassets/scripts/sf-grid-565151.min.js",
-        "staticwebassets/scripts/sf-heatmap-565151.min.js",
-        "staticwebassets/scripts/sf-import-565151.min.js",
-        "staticwebassets/scripts/sf-import-ie-565151.min.js",
-        "staticwebassets/scripts/sf-import-script-565151.min.js",
-        "staticwebassets/scripts/sf-inplaceeditor-565151.min.js",
-        "staticwebassets/scripts/sf-kanban-565151.min.js",
-        "staticwebassets/scripts/sf-lineargauge-565151.min.js",
-        "staticwebassets/scripts/sf-listbox-565151.min.js",
-        "staticwebassets/scripts/sf-listview-565151.min.js",
-        "staticwebassets/scripts/sf-maps-565151.min.js",
-        "staticwebassets/scripts/sf-maskedtextbox-565151.min.js",
-        "staticwebassets/scripts/sf-menu-565151.min.js",
-        "staticwebassets/scripts/sf-multiselect-565151.min.js",
-        "staticwebassets/scripts/sf-numerictextbox-565151.min.js",
-        "staticwebassets/scripts/sf-pdfviewer-565151.min.js",
-        "staticwebassets/scripts/sf-pivotview-565151.min.js",
-        "staticwebassets/scripts/sf-progressbar-565151.min.js",
-        "staticwebassets/scripts/sf-range-navigator-565151.min.js",
-        "staticwebassets/scripts/sf-richtexteditor-565151.min.js",
-        "staticwebassets/scripts/sf-schedule-565151.min.js",
-        "staticwebassets/scripts/sf-sidebar-565151.min.js",
-        "staticwebassets/scripts/sf-signature-565151.min.js",
-        "staticwebassets/scripts/sf-slider-565151.min.js",
-        "staticwebassets/scripts/sf-smith-chart-565151.min.js",
-        "staticwebassets/scripts/sf-sparkline-565151.min.js",
-        "staticwebassets/scripts/sf-spinner-565151.min.js",
-        "staticwebassets/scripts/sf-splitter-565151.min.js",
-        "staticwebassets/scripts/sf-stock-chart-565151.min.js",
-        "staticwebassets/scripts/sf-svg-export-565151.min.js",
-        "staticwebassets/scripts/sf-tab-565151.min.js",
-        "staticwebassets/scripts/sf-textbox-565151.min.js",
-        "staticwebassets/scripts/sf-timepicker-565151.min.js",
-        "staticwebassets/scripts/sf-toast-565151.min.js",
-        "staticwebassets/scripts/sf-toolbar-565151.min.js",
-        "staticwebassets/scripts/sf-tooltip-565151.min.js",
-        "staticwebassets/scripts/sf-treegrid-565151.min.js",
-        "staticwebassets/scripts/sf-treemap-565151.min.js",
-        "staticwebassets/scripts/sf-treeview-565151.min.js",
-        "staticwebassets/scripts/sf-uploader-565151.min.js",
-        "staticwebassets/scripts/sortable-565151.min.js",
-        "staticwebassets/scripts/spinner-565151.min.js",
-        "staticwebassets/scripts/splitbuttonsbase-565151.min.js",
-        "staticwebassets/scripts/svgbase-565151.min.js",
-        "staticwebassets/scripts/syncfusion-blazor-565151.min.js",
-        "staticwebassets/scripts/syncfusion-blazor-extended-565151.min.js",
+        "staticwebassets/scripts/accumulationchart.min.js",
+        "staticwebassets/scripts/chart.min.js",
+        "staticwebassets/scripts/compression.min.js",
+        "staticwebassets/scripts/data.min.js",
+        "staticwebassets/scripts/diagrams.min.js",
+        "staticwebassets/scripts/drawings.min.js",
+        "staticwebassets/scripts/excelexport.min.js",
+        "staticwebassets/scripts/fileutils.min.js",
+        "staticwebassets/scripts/navigationsbase.min.js",
+        "staticwebassets/scripts/officechart.min.js",
+        "staticwebassets/scripts/pdfexport.min.js",
+        "staticwebassets/scripts/popup.min.js",
+        "staticwebassets/scripts/popupsbase.min.js",
+        "staticwebassets/scripts/sf-accordion.min.js",
+        "staticwebassets/scripts/sf-accumulation-chart.min.js",
+        "staticwebassets/scripts/sf-barcode.min.js",
+        "staticwebassets/scripts/sf-breadcrumb.min.js",
+        "staticwebassets/scripts/sf-bullet-chart.min.js",
+        "staticwebassets/scripts/sf-calendar.min.js",
+        "staticwebassets/scripts/sf-chart.min.js",
+        "staticwebassets/scripts/sf-circulargauge.min.js",
+        "staticwebassets/scripts/sf-colorpicker.min.js",
+        "staticwebassets/scripts/sf-contextmenu.min.js",
+        "staticwebassets/scripts/sf-dashboard-layout.min.js",
+        "staticwebassets/scripts/sf-datepicker.min.js",
+        "staticwebassets/scripts/sf-daterangepicker.min.js",
+        "staticwebassets/scripts/sf-diagramcomponent.min.js",
+        "staticwebassets/scripts/sf-dialog.min.js",
+        "staticwebassets/scripts/sf-documenteditor.min.js",
+        "staticwebassets/scripts/sf-documenteditorcontainer.min.js",
+        "staticwebassets/scripts/sf-drop-down-button.min.js",
+        "staticwebassets/scripts/sf-dropdownlist.min.js",
+        "staticwebassets/scripts/sf-filemanager.min.js",
+        "staticwebassets/scripts/sf-gantt.min.js",
+        "staticwebassets/scripts/sf-grid.min.js",
+        "staticwebassets/scripts/sf-heatmap.min.js",
+        "staticwebassets/scripts/sf-inplaceeditor.min.js",
+        "staticwebassets/scripts/sf-kanban.min.js",
+        "staticwebassets/scripts/sf-lineargauge.min.js",
+        "staticwebassets/scripts/sf-listbox.min.js",
+        "staticwebassets/scripts/sf-listview.min.js",
+        "staticwebassets/scripts/sf-maps.min.js",
+        "staticwebassets/scripts/sf-maskedtextbox.min.js",
+        "staticwebassets/scripts/sf-menu.min.js",
+        "staticwebassets/scripts/sf-multiselect.min.js",
+        "staticwebassets/scripts/sf-numerictextbox.min.js",
+        "staticwebassets/scripts/sf-pager.min.js",
+        "staticwebassets/scripts/sf-pdfviewer.min.js",
+        "staticwebassets/scripts/sf-pivotview.min.js",
+        "staticwebassets/scripts/sf-progressbar.min.js",
+        "staticwebassets/scripts/sf-range-navigator.min.js",
+        "staticwebassets/scripts/sf-richtexteditor.min.js",
+        "staticwebassets/scripts/sf-schedule.min.js",
+        "staticwebassets/scripts/sf-sidebar.min.js",
+        "staticwebassets/scripts/sf-signature.min.js",
+        "staticwebassets/scripts/sf-slider.min.js",
+        "staticwebassets/scripts/sf-smith-chart.min.js",
+        "staticwebassets/scripts/sf-sparkline.min.js",
+        "staticwebassets/scripts/sf-spinner.min.js",
+        "staticwebassets/scripts/sf-splitter.min.js",
+        "staticwebassets/scripts/sf-stock-chart.min.js",
+        "staticwebassets/scripts/sf-svg-export.min.js",
+        "staticwebassets/scripts/sf-tab.min.js",
+        "staticwebassets/scripts/sf-textbox.min.js",
+        "staticwebassets/scripts/sf-timepicker.min.js",
+        "staticwebassets/scripts/sf-toast.min.js",
+        "staticwebassets/scripts/sf-toolbar.min.js",
+        "staticwebassets/scripts/sf-tooltip.min.js",
+        "staticwebassets/scripts/sf-treegrid.min.js",
+        "staticwebassets/scripts/sf-treemap.min.js",
+        "staticwebassets/scripts/sf-treeview.min.js",
+        "staticwebassets/scripts/sf-uploader.min.js",
+        "staticwebassets/scripts/sortable.min.js",
+        "staticwebassets/scripts/spinner.min.js",
+        "staticwebassets/scripts/splitbuttonsbase.min.js",
+        "staticwebassets/scripts/svgbase.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-base.min.js",
+        "staticwebassets/scripts/syncfusion-blazor-extended.min.js",
         "staticwebassets/scripts/syncfusion-blazor.min.js",
-        "staticwebassets/scripts/textbox-565151.min.js",
-        "staticwebassets/scripts/toast-565151.min.js",
-        "staticwebassets/scripts/tooltip-565151.min.js",
         "staticwebassets/styles/bootstrap-dark.css",
         "staticwebassets/styles/bootstrap.css",
         "staticwebassets/styles/bootstrap4.css",
@@ -946,15 +929,15 @@
         "staticwebassets/styles/material.css",
         "staticwebassets/styles/tailwind-dark.css",
         "staticwebassets/styles/tailwind.css",
-        "syncfusion.blazor.20.1.0.61.nupkg.sha512",
+        "syncfusion.blazor.20.2.0.38.nupkg.sha512",
         "syncfusion.blazor.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.ExcelExport.Net.Core/20.1.0.61": {
-      "sha512": "BL02q7ny8ZPINvPaypGZxp68v1bHyvjsOqIJZvtjNKvPYs8gQI+b+OfvB7qFYZ8v/ZxRFfSY8Xp6S5ZIJT727Q==",
+    "Syncfusion.ExcelExport.Net.Core/20.2.0.38": {
+      "sha512": "o55yczaenNMGTtGqNK8gYAaiW1T5AgD8yx/VjsGu/rA3TWSkuAe3jLl4Qvk9wJipEZ7QCVCB2rtaS38uQ1P10A==",
       "type": "package",
-      "path": "syncfusion.excelexport.net.core/20.1.0.61",
+      "path": "syncfusion.excelexport.net.core/20.2.0.38",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -963,15 +946,15 @@
         "lib/net5.0/Syncfusion.ExcelExport.Net.xml",
         "lib/netstandard2.0/Syncfusion.ExcelExport.Net.dll",
         "lib/netstandard2.0/Syncfusion.ExcelExport.Net.xml",
-        "syncfusion.excelexport.net.core.20.1.0.61.nupkg.sha512",
+        "syncfusion.excelexport.net.core.20.2.0.38.nupkg.sha512",
         "syncfusion.excelexport.net.core.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.Licensing/20.1.0.61": {
-      "sha512": "zKaxU7BLBwetkXI5auOs9t1ANjM8x+QGssaw/mopmefSBL63Vk5KklQ0ZsD8MzSRBv4vc+o1DxSbKsR/Vb5d4Q==",
+    "Syncfusion.Licensing/20.2.0.38": {
+      "sha512": "l1PzrIMIT+QYbqgvsktFMjpz6Msrufci3rvXaA+Q9rJYMkXW9Uje2MxdlI61djrp9kktg0YkCMuLe7RRFXPTFA==",
       "type": "package",
-      "path": "syncfusion.licensing/20.1.0.61",
+      "path": "syncfusion.licensing/20.2.0.38",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -995,15 +978,15 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.20.1.0.61.nupkg.sha512",
+        "syncfusion.licensing.20.2.0.38.nupkg.sha512",
         "syncfusion.licensing.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.PdfExport.Net.Core/20.1.0.61": {
-      "sha512": "N4LZYoi8viXHq0YzP4xe/672uFpOvu4XQ5N1orf2UEGLe7Kv3u4RCWdh1oXrZIkgOxJRHJru2e+KXNVqz1oXQQ==",
+    "Syncfusion.PdfExport.Net.Core/20.2.0.38": {
+      "sha512": "LE6eIH0QmefQl5F2Sa194gRY7xzsNs6STmjgDQF5ljgJ/dP7owbtsY347iCF+Vdv4ZxH50flksT3VTZxn+9fxw==",
       "type": "package",
-      "path": "syncfusion.pdfexport.net.core/20.1.0.61",
+      "path": "syncfusion.pdfexport.net.core/20.2.0.38",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1012,15 +995,15 @@
         "lib/net5.0/Syncfusion.PdfExport.Net.xml",
         "lib/netstandard2.0/Syncfusion.PdfExport.Net.dll",
         "lib/netstandard2.0/Syncfusion.PdfExport.Net.xml",
-        "syncfusion.pdfexport.net.core.20.1.0.61.nupkg.sha512",
+        "syncfusion.pdfexport.net.core.20.2.0.38.nupkg.sha512",
         "syncfusion.pdfexport.net.core.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "System.IO.Pipelines/6.0.0": {
-      "sha512": "mXX66shZ4xLlI3vNLaJ0lt8OIZdmXTvIqXRdQX5HLVGSkLhINLsVhyZuX2UdRFnOGkqnwmMUs40pIIQ7mna4+A==",
+    "System.IO.Pipelines/6.0.3": {
+      "sha512": "ryTgF+iFkpGZY1vRQhfCzX0xTdlV3pyaTTqRu2ETbEv+HlV7O6y7hyQURnghNIXvctl5DuZ//Dpks6HdL/Txgw==",
       "type": "package",
-      "path": "system.io.pipelines/6.0.0",
+      "path": "system.io.pipelines/6.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1037,7 +1020,7 @@
         "lib/netcoreapp3.1/System.IO.Pipelines.xml",
         "lib/netstandard2.0/System.IO.Pipelines.dll",
         "lib/netstandard2.0/System.IO.Pipelines.xml",
-        "system.io.pipelines.6.0.0.nupkg.sha512",
+        "system.io.pipelines.6.0.3.nupkg.sha512",
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1151,7 +1134,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Syncfusion.Blazor >= 20.1.0.61"
+      "Syncfusion.Blazor >= 20.2.0.38"
     ]
   },
   "packageFolders": {
@@ -1195,7 +1178,7 @@
         "dependencies": {
           "Syncfusion.Blazor": {
             "target": "Package",
-            "version": "[20.1.0.61, )"
+            "version": "[20.2.0.38, )"
           }
         },
         "imports": [
@@ -1216,7 +1199,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
