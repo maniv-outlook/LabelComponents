@@ -166,5 +166,12 @@ public partial class MultiSelectControl<TItem, TValue>
         set;
     } = "100%";
 
+    [Parameter]
+    public bool Multiline
+    {
+        get;
+        set;
+    } = false;
+
     private static void ToolTipOpen(TooltipEventArgs args) => args.Cancel = !args.HasText;
 }
