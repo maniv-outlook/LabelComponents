@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXFRleHRCb3hDb250cm9sLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Projects/LabelComponents/Areas/MyFeature/Pages/UploaderControl.razor]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXFVwbG9hZGVyQ29udHJvbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Projects/LabelComponents/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

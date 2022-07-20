@@ -1,0 +1,12 @@
+﻿<div class="divFlex" style="height: 100px">
+	<div class="divFlexLabel">
+		<label class="labelStatus" for="@ID">@Placeholder:</label>
+	</div>
+	<div class="divFlexSmall" style="display: flex; height: auto; margin-top: 10px;">
+		<div class="uploadDocument" style="width: 100%">
+			<SfUploader AllowMultiple="@Multiple" AutoUpload="@AutoUpload" ID="@ID" SequentialUpload="@SequentialUpload">
+				<UploaderEvents ValueChange="@OnFileUpload"></UploaderEvents>
+			</SfUploader>
+		</div>
+	</div>
+</div>
