@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eFo5nPDcLKUoyh+LlH5Si4keZdcQOpz10nouXqxcMwA=",
+  "Hash": "gILcaNTkPe2Nl275VSKV5Qbu7yNAj14nVa0y2UYV4A0=",
   "Source": "LabelComponents",
   "BasePath": "_content/LabelComponents",
   "Mode": "Default",
@@ -1301,6 +1301,23 @@
       "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\scripts\\svgbase.min.js"
     },
     {
+      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\scripts\\syncfusion-blazor.min.js",
+      "SourceId": "Syncfusion.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor",
+      "RelativePath": "scripts/syncfusion-blazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\scripts\\syncfusion-blazor.min.js"
+    },
+    {
       "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\scripts\\syncfusion-blazor-base.min.js",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
@@ -1333,40 +1350,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\scripts\\syncfusion-blazor-extended.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\scripts\\syncfusion-blazor.min.js",
-      "SourceId": "Syncfusion.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "scripts/syncfusion-blazor.min.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\scripts\\syncfusion-blazor.min.js"
-    },
-    {
-      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap-dark.css",
-      "SourceId": "Syncfusion.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/bootstrap-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap-dark.css"
     },
     {
       "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap.css",
@@ -1403,23 +1386,6 @@
       "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap4.css"
     },
     {
-      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap5-dark.css",
-      "SourceId": "Syncfusion.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/bootstrap5-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap5-dark.css"
-    },
-    {
       "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap5.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
@@ -1437,12 +1403,12 @@
       "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap5.css"
     },
     {
-      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fabric-dark.css",
+      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap5-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/fabric-dark.css",
+      "RelativePath": "styles/bootstrap5-dark.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1451,7 +1417,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fabric-dark.css"
+      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap5-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap-dark.css",
+      "SourceId": "Syncfusion.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor",
+      "RelativePath": "styles/bootstrap-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\bootstrap-dark.css"
     },
     {
       "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fabric.css",
@@ -1471,12 +1454,12 @@
       "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fabric.css"
     },
     {
-      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fluent-dark.css",
+      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fabric-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/fluent-dark.css",
+      "RelativePath": "styles/fabric-dark.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1485,7 +1468,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fluent-dark.css"
+      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fabric-dark.css"
     },
     {
       "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fluent.css",
@@ -1505,6 +1488,23 @@
       "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fluent.css"
     },
     {
+      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fluent-dark.css",
+      "SourceId": "Syncfusion.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor",
+      "RelativePath": "styles/fluent-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\fluent-dark.css"
+    },
+    {
       "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\highcontrast.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
@@ -1520,23 +1520,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\highcontrast.css"
-    },
-    {
-      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\material-dark.css",
-      "SourceId": "Syncfusion.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
-      "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/material-dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\material-dark.css"
     },
     {
       "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\material.css",
@@ -1556,12 +1539,12 @@
       "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\material.css"
     },
     {
-      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\tailwind-dark.css",
+      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\material-dark.css",
       "SourceId": "Syncfusion.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
       "BasePath": "_content/Syncfusion.Blazor",
-      "RelativePath": "styles/tailwind-dark.css",
+      "RelativePath": "styles/material-dark.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1570,7 +1553,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\tailwind-dark.css"
+      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\material-dark.css"
     },
     {
       "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\tailwind.css",
@@ -1588,6 +1571,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\tailwind.css"
+    },
+    {
+      "Identity": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\tailwind-dark.css",
+      "SourceId": "Syncfusion.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor",
+      "RelativePath": "styles/tailwind-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\staticwebassets\\styles\\tailwind-dark.css"
     }
   ]
 }
