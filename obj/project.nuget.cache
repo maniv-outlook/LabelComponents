@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ihEOxzUQeaqHFjdy9otdMVKfirZutjReiyzeKmKSKpKvt7/90RsRz4jdwNwwJvLEB9lTKo75IVgITEE3Fb6pDg==",
+  "dgSpecHash": "dsUWM8wKl/8aHMGTEHLoFXKbnY6prpRP3rN8FGqk4LsuZlOlmPChzSLHSAAidzY2/AiW5djq/2hba5aB6b9gVA==",
   "success": true,
   "projectFilePath": "E:\\Projects\\LabelComponents\\LabelComponents.csproj",
   "expectedPackageFiles": [
@@ -20,10 +20,10 @@
     "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.39\\syncfusion.blazor.20.2.0.39.nupkg.sha512",
-    "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.excelexport.net.core\\20.2.0.39\\syncfusion.excelexport.net.core.20.2.0.39.nupkg.sha512",
-    "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.licensing\\20.2.0.39\\syncfusion.licensing.20.2.0.39.nupkg.sha512",
-    "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.pdfexport.net.core\\20.2.0.39\\syncfusion.pdfexport.net.core.20.2.0.39.nupkg.sha512",
+    "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.blazor\\20.2.0.40\\syncfusion.blazor.20.2.0.40.nupkg.sha512",
+    "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.excelexport.net.core\\20.2.0.40\\syncfusion.excelexport.net.core.20.2.0.40.nupkg.sha512",
+    "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.licensing\\20.2.0.40\\syncfusion.licensing.20.2.0.40.nupkg.sha512",
+    "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\syncfusion.pdfexport.net.core\\20.2.0.40\\syncfusion.pdfexport.net.core.20.2.0.40.nupkg.sha512",
     "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\ManiVenkiteswaran\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
