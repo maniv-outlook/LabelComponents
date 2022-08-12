@@ -12,7 +12,7 @@
                 <div class="divFlexLabel">
                     <label class="labelStatus" for="@ID">@Placeholder:</label>
                 </div>
-                <div class="@(Multiline ? "divFlexBig" : "divFlexSmall")" id="@("div" + ID)">
+                <div class="@(Multiline ? "divFlexBig" : "divFlexSmall")" id="@("div" + ID)" style="height: auto">
                     <SfTooltip CloseDelay="0" OnOpen="ToolTipOpen" OpenDelay="0" OpensOn="Hover" Position="Position.TopCenter" Target="@("#" + ID)" Width="100%" WindowCollision="true">
                         <SfMultiSelect AllowFiltering="true" DataSource="@DataSource" FilterBarPlaceholder="@FilterBarPlaceholder" FilterType="FilterType.Contains" ID="@ID" Mode="@Mode" Placeholder="@Placeholder"
                            TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
@@ -36,7 +36,7 @@
                 <div class="divFlexLabel">
                     <label class="labelStatus" for="@ID">@Placeholder:</label>
                 </div>
-                <div class="@(Multiline ? "divFlexBig" : "divFlexSmall")" id="@("div" + ID)">
+                <div class="@(Multiline ? "divFlexBig" : "divFlexSmall")" id="@("div" + ID)" style="height: auto">
                     <SfMultiSelect AllowFiltering="true" DataSource="@DataSource" FilterBarPlaceholder="@FilterBarPlaceholder" FilterType="FilterType.Contains" ID="@ID" Mode="@Mode" Placeholder="@Placeholder"
                        TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
                         @*<MultiSelectEvents TItem="TItem" TValue="TValue" />
@@ -89,7 +89,7 @@ else
                 <div class="divFlexLabel">
                     <label class="labelStatus" for="@ID">@Placeholder:</label>
                 </div>
-                <div class="@(Multiline ? "divFlexBig" : "divFlexSmall")" id="@("div" + ID)">
+                <div class="@(Multiline ? "divFlexBig" : "divFlexSmall")" id="@("div" + ID)" style="height: auto">
                     <SfTooltip CloseDelay="0" OnOpen="ToolTipOpen" OpenDelay="0" OpensOn="Hover" Position="Position.TopCenter" Target="@("#" + ID)" Width="100%" WindowCollision="true">
                         <SfMultiSelect AllowFiltering="true" DataSource="@DataSource" FilterBarPlaceholder="@FilterBarPlaceholder" FilterType="FilterType.Contains" ID="@ID" Mode="@Mode" Placeholder="@Placeholder"
                            TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
@@ -111,7 +111,7 @@ else
                 <div class="divFlexLabel">
                     <label class="labelStatus" for="@ID">@Placeholder:</label>
                 </div>
-                <div class="@(Multiline ? "divFlexBig" : "divFlexSmall")" id="@("div" + ID)">
+                <div class="@(Multiline ? "divFlexBig" : "divFlexSmall")" id="@("div" + ID)" style="height: auto">
                     <SfMultiSelect AllowFiltering="true" DataSource="@DataSource" FilterBarPlaceholder="@FilterBarPlaceholder" FilterType="FilterType.Contains" ID="@ID" Mode="@Mode" Placeholder="@Placeholder"
                        TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
                         @*<MultiSelectEvents TItem="TItem" TValue="TValue" />*@
