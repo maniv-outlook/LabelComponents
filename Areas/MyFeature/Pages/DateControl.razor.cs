@@ -166,4 +166,25 @@ public partial class DateControl
     /// </summary>
     /// <param name="args"></param>
     private static void ToolTipOpen(TooltipEventArgs args) => args.Cancel = !args.HasText;
+
+    [Parameter]
+    public EventCallback<ChangedEventArgs<DateTime>> OnChange
+    {
+        get;
+        set;
+    }
+
+    [Parameter]
+    public EventCallback<PopupObjectArgs> OnOpen
+    {
+        get;
+        set;
+    }
+
+    [Parameter]
+    public EventCallback<PopupObjectArgs> OnClose
+    {
+        get;
+        set;
+    }
 }
