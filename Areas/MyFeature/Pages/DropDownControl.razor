@@ -1,4 +1,5 @@
 ﻿@typeparam TValue
+@using FilterType = Syncfusion.Blazor.DropDowns.FilterType
 @typeparam TItem
 @if (CreateDivTag)
 {
@@ -7,7 +8,8 @@
 			<label class="labelStatus" for="@ID">@(Placeholder.NullOrWhiteSpace() ? " " : Placeholder + ":")</label>
 		</div>
 		<div class="divFlexSmall">
-			<SfDropDownList DataSource="@DataSource" ID="@ID" Query="@Query" TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="@ValueChanged" ValueExpression="@ValueExpression" Width="@Width" @ref="Drop">
+			<SfDropDownList DataSource="@DataSource" ID="@ID" Query="@Query" TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="@ValueChanged" ValueExpression="@ValueExpression" Width="@Width" @ref="Drop" 
+							AllowFiltering="@AllowFilter" FilterType="FilterType.Contains" FilterBarPlaceholder="Search..." ShowClearButton="@ShowClearButton">
 				<DropDownListEvents TItem="TItem" TValue="TValue" ValueChange="@DropDownValueChange" />
 				<DropDownListFieldSettings Text="@TextField" Value="@ValueField" />
 			</SfDropDownList>
@@ -16,7 +18,8 @@
 }
 else
 {
-	<SfDropDownList DataSource="@DataSource" ID="@ID" Query="@Query" TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="@ValueChanged" ValueExpression="@ValueExpression" Width="@Width" @ref="Drop">
+	<SfDropDownList DataSource="@DataSource" ID="@ID" Query="@Query" TItem="TItem" TValue="TValue" Value="@Value" ValueChanged="@ValueChanged" ValueExpression="@ValueExpression" Width="@Width" @ref="Drop" 
+					AllowFiltering="@AllowFilter" FilterType="FilterType.Contains" FilterBarPlaceholder="Search..." ShowClearButton="@ShowClearButton">
 		<DropDownListEvents TItem="TItem" TValue="TValue" ValueChange="@DropDownValueChange" />
 		<DropDownListFieldSettings Text="@TextField" Value="@ValueField" />
 	</SfDropDownList>

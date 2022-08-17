@@ -8,7 +8,7 @@
 // File Name:           DropDownControl.razor.cs
 // Created By:          Narendra Kumaran Kadhirvelu, Jolly Joseph Paily, DonBosco Paily
 // Created On:          05-23-2022 20:15
-// Last Updated On:     07-08-2022 20:22
+// Last Updated On:     08-17-2022 20:03
 // *****************************************/
 
 #endregion
@@ -28,6 +28,15 @@ namespace LabelComponents.Areas.MyFeature.Pages;
 public partial class DropDownControl<TValue, TItem>
 {
     private TValue _value;
+
+    private SfDropDownList<TValue, TItem> Drop;
+
+    [Parameter]
+    public bool AllowFilter
+    {
+        get;
+        set;
+    }
 
     /// <summary>
     /// </summary>
@@ -65,13 +74,6 @@ public partial class DropDownControl<TValue, TItem>
         set;
     }
 
-    private SfDropDownList<TValue, TItem> Drop;
-
-    public void Refresh()
-    {
-        Drop.RefreshDataAsync();
-    }
-
     /// <summary>
     /// </summary>
     [Parameter]
@@ -83,6 +85,13 @@ public partial class DropDownControl<TValue, TItem>
 
     [Parameter]
     public Query Query
+    {
+        get;
+        set;
+    }
+
+    [Parameter]
+    public bool ShowClearButton
     {
         get;
         set;
@@ -148,4 +157,9 @@ public partial class DropDownControl<TValue, TItem>
         get;
         set;
     } = "98%";
+
+    public void Refresh()
+    {
+        Drop.RefreshDataAsync();
+    }
 }

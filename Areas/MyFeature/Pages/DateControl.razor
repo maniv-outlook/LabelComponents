@@ -9,8 +9,8 @@
 			{
 				<SfTooltip CloseDelay="0" OnOpen="ToolTipOpen" OpenDelay="0" OpensOn="Hover" Position="Position.TopCenter" Target="@("#" + ID)" Width="100%" WindowCollision="true">
 					<SfDatePicker CssClass="@CssClass" DayHeaderFormat="DayHeaderFormats.Abbreviated" Depth="CalendarView.Month" FirstDayOfWeek="1" FloatLabelType="FloatLabelType.Never"
-								  Format="MM/dd/yyyy" ID="@ID" Max="@Max" Min="@Min" OnFocus="DTFocus" Placeholder="@Placeholder" Readonly="@Readonly" @ref="DateBox" ShowClearButton="true" ShowTodayButton="true"
-								  TValue="DateTime" ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
+								  Format="MM/dd/yyyy" ID="@ID" Max="@Max" Min="@Min" OnFocus="DTFocus" Placeholder="@Placeholder" Readonly="@Readonly" @ref="DateBox" ShowClearButton="false" ShowTodayButton="true"
+								  StrictMode="true" TValue="DateTime" ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
 						<DatePickerEvents OnClose="OnClose" OnOpen="OnOpen" TValue="DateTime" ValueChange="OnChange"></DatePickerEvents>
 					</SfDatePicker>
 					<TooltipTemplates>
@@ -23,8 +23,8 @@
 			else
 			{
 				<SfDatePicker CssClass="@CssClass" DayHeaderFormat="DayHeaderFormats.Abbreviated" Depth="CalendarView.Month" FirstDayOfWeek="1" FloatLabelType="FloatLabelType.Never"
-							  Format="MM/dd/yyyy" ID="@ID" Max="@Max" Min="@Min" OnFocus="DTFocus" Placeholder="@Placeholder" Readonly="@Readonly" @ref="DateBox" ShowClearButton="true" ShowTodayButton="true"
-							  TValue="DateTime" ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
+							  Format="MM/dd/yyyy" ID="@ID" Max="@Max" Min="@Min" OnFocus="DTFocus" Placeholder="@Placeholder" Readonly="@Readonly" @ref="DateBox" ShowClearButton="false" ShowTodayButton="true"
+							  StrictMode="true" TValue="DateTime" ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
 					<DatePickerEvents OnClose="OnClose" OnOpen="OnOpen" TValue="DateTime" ValueChange="OnChange"></DatePickerEvents>
 				</SfDatePicker>
 			}
@@ -37,8 +37,8 @@ else
 	{
 		<SfTooltip CloseDelay="0" OnOpen="ToolTipOpen" OpenDelay="0" OpensOn="Hover" Position="Position.TopCenter" Target="@("#" + ID)" Width="100%" WindowCollision="true">
 			<SfDatePicker CssClass="@CssClass" DayHeaderFormat="DayHeaderFormats.Abbreviated" Depth="CalendarView.Month" FirstDayOfWeek="1" FloatLabelType="FloatLabelType.Never" Format="MM/dd/yyyy"
-						  ID="@ID" Max="@Max" Min="@Min" OnFocus="DTFocus" Placeholder="@Placeholder" Readonly="@Readonly" @ref="DateBox" ShowClearButton="true" ShowTodayButton="true" TValue="DateTime"
-						  ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
+						  ID="@ID" Max="@Max" Min="@Min" OnFocus="DTFocus" Placeholder="@Placeholder" Readonly="@Readonly" @ref="DateBox" ShowClearButton="false" ShowTodayButton="true" StrictMode="true"
+						  TValue="DateTime" ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
 				<DatePickerEvents OnClose="OnClose" OnOpen="OnOpen" TValue="DateTime" ValueChange="OnChange"></DatePickerEvents>
 			</SfDatePicker>
 			<TooltipTemplates>
@@ -51,8 +51,8 @@ else
 	else
 	{
 		<SfDatePicker CssClass="@CssClass" DayHeaderFormat="DayHeaderFormats.Abbreviated" Depth="CalendarView.Month" FirstDayOfWeek="1" FloatLabelType="FloatLabelType.Never" Format="MM/dd/yyyy" ID="@ID"
-					  Max="@Max" Min="@Min" OnFocus="DTFocus" Placeholder="@Placeholder" Readonly="@Readonly" @ref="DateBox" ShowClearButton="true" ShowTodayButton="true" TValue="DateTime"
-					  ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
+					  Max="@Max" Min="@Min" OnFocus="DTFocus" Placeholder="@Placeholder" Readonly="@Readonly" @ref="DateBox" ShowClearButton="false" ShowTodayButton="true" StrictMode="true"
+					  TValue="DateTime" ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
 			<DatePickerEvents OnClose="OnClose" OnOpen="OnOpen" TValue="DateTime" ValueChange="OnChange"></DatePickerEvents>
 		</SfDatePicker>
 	}

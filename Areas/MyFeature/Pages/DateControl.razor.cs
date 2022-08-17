@@ -108,7 +108,7 @@ public partial class DateControl
         get => _value;
         set
         {
-            if (EqualityComparer<DateTime?>.Default.Equals(value, _value))
+            if (EqualityComparer<DateTime>.Default.Equals(value, _value))
             {
                 return;
             }
@@ -147,7 +147,7 @@ public partial class DateControl
 
     /// <summary>
     /// </summary>
-    private SfDatePicker<DateTime> DateBox
+    public SfDatePicker<DateTime> DateBox
     {
         get;
         set;
