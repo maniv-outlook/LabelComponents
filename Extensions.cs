@@ -13,6 +13,9 @@
 
 #endregion
 
+using Syncfusion.Blazor.Inputs;
+using System.Text.RegularExpressions;
+
 namespace LabelComponents;
 
 public static partial class Extensions
@@ -31,4 +34,11 @@ public static partial class Extensions
     /// <param name="o"> Object </param>
     /// <returns> Boolean </returns>
     public static bool NullOrWhiteSpace(this object o) => o == null || o.ToString().NullOrWhiteSpace();
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="s"></param>
+    /// <returns></returns>
+    public static string StripPhoneNumber(this string s) => Regex.Replace(s, "[^0-9]", string.Empty);
 }
