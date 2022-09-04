@@ -215,6 +215,13 @@ public partial class TextBoxControl
         set;
     }
 
+    [Parameter]
+    public EventCallback<object> Created
+    {
+        get;
+        set;
+    }
+
     /*protected override void OnInitialized()
     {
         if (FieldName.NullOrWhiteSpace())

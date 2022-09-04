@@ -9,7 +9,7 @@
             {
 	            <SfTextBox CssClass="@CssClass" FloatLabelType="FloatLabelType.Never" HtmlAttributes="@(new Dictionary<string, object> { { "maxlength", MaxLength }, {"minlength", MinLength}, {"rows", Multiline ? Rows : 1} })"
 						   ID="@ID" Multiline="@Multiline" Placeholder="@Placeholder" Readonly="@Readonly" @ref="Box" Type="@TextBoxType" ValidateOnInput="true" Value="@Value"
-						   ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width">
+						   ValueChanged="ValueChanged" ValueExpression="@ValueExpression" Width="@Width" Created="Created">
 							<ValidationMessage For="@ValidationMessage"></ValidationMessage>
 				</SfTextBox>
                 <SfTooltip CloseDelay="0" OnOpen="ToolTipOpen" OpenDelay="0" OpensOn="Hover" Position="Position.TopCenter" Target="@("#" + ID)" Width="100%" WindowCollision="true">
@@ -24,7 +24,7 @@
             {
                 <SfTextBox CssClass="@CssClass" FloatLabelType="FloatLabelType.Never" HtmlAttributes="@(new Dictionary<string, object> { { "maxlength", MaxLength }, {"minlength", MinLength}, {"rows", Multiline ? Rows : 1} })"
                    ID="@ID" Multiline="@Multiline" Placeholder="@Placeholder" Readonly="@Readonly" @ref="Box" Type="@TextBoxType" ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged"
-                   ValueExpression="@ValueExpression" Width="@Width">
+                   ValueExpression="@ValueExpression" Width="@Width" Created="Created">
                 </SfTextBox>
             }
         </div>
@@ -36,7 +36,7 @@ else
     {
         <SfTextBox CssClass="@CssClass" FloatLabelType="FloatLabelType.Never" HtmlAttributes="@(new Dictionary<string, object> { { "maxlength", MaxLength }, {"minlength", MinLength}, {"rows", Multiline ? Rows : 1} })"
            ID="@ID" Multiline="@Multiline" Placeholder="@Placeholder" Readonly="@Readonly" @ref="Box" Type="@TextBoxType" ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged"
-           ValueExpression="@ValueExpression" Width="@Width">
+           ValueExpression="@ValueExpression" Width="@Width" Created="Created">
         </SfTextBox>
         <SfTooltip CloseDelay="0" OnOpen="ToolTipOpen" OpenDelay="0" OpensOn="Hover" Position="Position.TopCenter" Target="@("#" + ID)" Width="100%" WindowCollision="true">
             <TooltipTemplates>
@@ -50,7 +50,7 @@ else
     {
         <SfTextBox CssClass="@CssClass" FloatLabelType="FloatLabelType.Never" HtmlAttributes="@(new Dictionary<string, object> { { "maxlength", MaxLength }, {"minlength", MinLength}, {"rows", Multiline ? Rows : 1} })"
            ID="@ID" Multiline="@Multiline" Placeholder="@Placeholder" Readonly="@Readonly" @ref="Box" Type="@TextBoxType" ValidateOnInput="true" Value="@Value" ValueChanged="ValueChanged"
-           ValueExpression="@ValueExpression" Width="@Width">
+           ValueExpression="@ValueExpression" Width="@Width" Created="Created">
         </SfTextBox>
     }
 }
