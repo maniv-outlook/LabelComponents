@@ -13,6 +13,6 @@
     <SourceRoot Include="C:\Users\ManiVenkiteswaran\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)syncfusion.blazor\20.2.0.46\buildTransitive\Syncfusion.Blazor.props" Condition="Exists('$(NuGetPackageRoot)syncfusion.blazor\20.2.0.46\buildTransitive\Syncfusion.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)syncfusion.blazor\20.2.0.48\buildTransitive\Syncfusion.Blazor.props" Condition="Exists('$(NuGetPackageRoot)syncfusion.blazor\20.2.0.48\buildTransitive\Syncfusion.Blazor.props')" />
   </ImportGroup>
 </Project>
