@@ -8,6 +8,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Projects\LabelComponents
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Projects/LabelComponents/Areas/MyFeature/Pages/ComboBoxControl.razor]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXENvbWJvQm94Q29udHJvbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Projects/LabelComponents/Areas/MyFeature/Pages/DateControl.razor]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTXlGZWF0dXJlXFBhZ2VzXERhdGVDb250cm9sLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
